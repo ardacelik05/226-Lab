@@ -1,7 +1,7 @@
 num = int(input("Enter a positive integer greater than 9: "))
 
 steps = 0
-print(num, end="")
+print(num)
 
 while num >= 10:
     temp = num
@@ -15,7 +15,8 @@ while num >= 10:
     num = digit_sum
     steps += 1
 
-    print(" →", num, end="")
+    print( num)
 
-print("\nFinal value:", num)
+print("Final value:", num)
+
 print("Total steps:", steps)
